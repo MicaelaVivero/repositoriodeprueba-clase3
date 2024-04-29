@@ -1,0 +1,33 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+button{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+font-family: sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root{
+    --color-texto: #3A3C3B;
+}
+
+
+
+
+<
+i 
+class
+=
+"bi bi-chevron-down"
+></
+i
+>
