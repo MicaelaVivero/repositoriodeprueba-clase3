@@ -11,6 +11,7 @@ section{
     display: flex;
     flex-direction: row;
     position: sticky;
+    width: 100%;
 }
 
 nav{
@@ -21,7 +22,6 @@ nav{
     height: 8vh;
     background-color: #202C33;
     justify-content: space-between;
-    margin-left: 20vw;
 }
 
 nav .arrow{

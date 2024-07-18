@@ -15,7 +15,7 @@ body{
 
 .chat{
     height: 600px;
-    width: 400px;
+    width: 50%;
     background-image: url(./Assets/Images/pink.jpg);
     border: 3px solid #88004F;
     border-radius: 20px;
@@ -24,4 +24,5 @@ body{
     gap:10px;
     overflow: hidden;
     justify-content: space-between;
+    margin: auto;
 }

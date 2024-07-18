@@ -17,7 +17,6 @@ i{
     flex-direction: row;
     width: 80vw;
     height: 8vh;
-    margin-left: 20vw;
     background-color: #202C33;
     justify-content: space-between;
 }
@@ -32,13 +31,11 @@ div .emotes{
     display: flex;
     font-size: 25px;
     align-items: center;
-    padding-left: 20px;
 }
 
 .message-section .message-hub .message-input{
     margin: 8.5px 0;
     padding: 0 10px;
-    width: 55vw;
     height: 40px;
     color: rgb(255, 255, 255);
     background-color: #2A3942;
