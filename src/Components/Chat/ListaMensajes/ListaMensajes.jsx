@@ -2,11 +2,11 @@ import React from 'react'
 import './listamensajes.css'
 import { Mensaje } from '../Mensaje/Mensaje'
 
-export const ListaMensajes = ({mensajes}) => {
+export const ListaMensajes = ({mensajesChat}) => {
   return (
     <div className='mensaje'>
-      {mensajes.map((mensajes) => 
-        <Mensaje informacion={mensajes}/>
+      {mensajesChat.map((mensaje) => 
+        <Mensaje informacion={mensaje}/>
       )}
     </div>
   )

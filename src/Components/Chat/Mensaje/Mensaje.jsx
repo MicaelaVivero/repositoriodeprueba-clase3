@@ -5,7 +5,7 @@ import './mensaje.css'
 
 
 export const Mensaje = ({informacion}) => {
-  const { author, text, state, day, hour } = informacion
+  const { author, text, estado, day, hour } = informacion
   return (
     <div className={author} key={id}>
         <div className="burbuja">
@@ -21,7 +21,7 @@ export const Mensaje = ({informacion}) => {
                     <span className="hour fonts">{hour}</span>
                 </div>
                 <div className={author + " state-box"} >
-                    <span>{validacionVisto(state)}</span>
+                    <span>{validacionVisto(estado)}</span>
                 </div>
             </div>
         </div>

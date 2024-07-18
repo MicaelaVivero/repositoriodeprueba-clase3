@@ -32,7 +32,7 @@ const MOOK_MENSAJES = [
 return (
     <>
         <ChatHeaderInfo />
-        <ListaMensajes mensajes={MOOK_MENSAJES}/>
+        <ListaMensajes mensajesChat={MOOK_MENSAJES}/>
         <MensajeForm />
     </>
 )
