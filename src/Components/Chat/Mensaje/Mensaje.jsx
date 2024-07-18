@@ -3,7 +3,7 @@ import './mensaje.css'
 
 
 export const Mensaje = ({informacion}) => {
-  const { author, text, estado, day, hour } = informacion
+  const { author, text, estado, day, hour, id } = informacion
   return (
     <div className={author} key={id}>
         <div className="burbuja">
